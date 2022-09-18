@@ -64,7 +64,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/public/index.html' }),
+    // new HtmlWebpackPlugin({ template: './src/public/index.html' }),
     new VueLoaderPlugin(),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({

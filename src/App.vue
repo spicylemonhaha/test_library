@@ -4,8 +4,8 @@
 </template>
 
 <script setup>
-import Hello from './component/Hello.vue';
-import Hi from './component/Hi.vue'
+import Hello from './component/Hello';
+import Hi from './component/Hi'
 </script>    
 <style>
 

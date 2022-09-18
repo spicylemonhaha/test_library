@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue3组件库</title>
+</head>
+<body>
+    <div id="app">
+        script引入！
+        <Hello></Hello>
+        <Hi></Hi>
+    </div>
+</body>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="./lib/index.js"></script>
+<script>
+    const App = {
+        data() {},
+      };
+    const app = Vue.createApp(App);
+    app.use(VueComponents);
+    app.mount("#app");
+</script>
+</html>

@@ -2,7 +2,7 @@
   "name": "test_library",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/lib/my-lib.js",
+  "main": "lib/index.js",
   "scripts": {
     "component": "webpack --config ./webpack.component.js"
   },
